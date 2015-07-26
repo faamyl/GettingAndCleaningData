@@ -20,7 +20,6 @@ Files include:
 README.txt
 
 train/X_train.txt (includes the training data set)
-
 train/y_train.txt (includes the training labels)
 
 train/subject_train.txt (includes the training subjects)
