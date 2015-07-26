@@ -19,16 +19,14 @@ Files include:
 
 README.txt
 
-train/X_train.txt (includes the training data set)
-train/y_train.txt (includes the training labels)
-
-train/subject_train.txt (includes the training subjects)
-
-test/X_test.txt (includes the test set)
-test/y_test.txt (includes the test labels)
-features_info.txt (includes the variables used on the feature vector)
-features.txt (includes a list of all features)
-activity_labels.txt (inludes the class labels with their activity name)
+1. train/X_train.txt (includes the training data set)
+2. train/y_train.txt (includes the training labels)
+3. train/subject_train.txt (includes the training subjects)
+4. test/X_test.txt (includes the test set)
+5. test/y_test.txt (includes the test labels)
+6. features_info.txt (includes the variables used on the feature vector)
+7. features.txt (includes a list of all features)
+8. activity_labels.txt (inludes the class labels with their activity name)
 
 Objectives:
 
@@ -41,3 +39,20 @@ Objectives:
 Additional information can be found in the readme.md file.
 
 File Name: run_analysis.r
+
+Code Variables:
+
+1.  x_train will read the training data
+2.  x_test will read the test data
+3.  sub_train will read the subject data
+4.  sub_test will read the subject labels
+5.  y_train will read the training labels
+6.  y_test will read test labels
+7.  x combines training and test data
+8.  sub combines subject data
+9.  y combines training and test labels
+10.	ex_features will read the features data
+11.	act_labels will hold the activity labels data
+12.	cleaned will hold the sub set of data after extracting only the measurements on the mean and standard deviation for each measurement.
+
+	
