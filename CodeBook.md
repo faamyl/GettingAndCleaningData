@@ -18,9 +18,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Files include:
 
 README.txt
+
 train/X_train.txt (includes the training data set)
+
 train/y_train.txt (includes the training labels)
+
 train/subject_train.txt (includes the training subjects)
+
 test/X_test.txt (includes the test set)
 test/y_test.txt (includes the test labels)
 features_info.txt (includes the variables used on the feature vector)
